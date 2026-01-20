@@ -15,8 +15,9 @@ Advanced spatial analysis and data science for urban planning and public policy.
 - **Final Project:** Capstone modeling challenge
 
 ## About Me
-[Students will customize this section]
+Alejandro Duque, B.A. City and Regional Planning and Public Affairs
+I am taking this course because I hope to strengthen my R skills and become a better researcher!
 
 ## Contact
-- Email: [your.email@upenn.edu]
-- GitHub: [@your-username]
+- Email: duque1@upenn.edu
+- GitHub: aduque99
