@@ -10,7 +10,7 @@ website:
         text: Home
       - text: Labs
         menu:
-          - href: labs/lab_0/lab0_duque.qmd
+          - href: CPLN5920_portfolio/labs/lab_0/lab0_duque.qmd
             text: "Lab 0: dplyr Basics"
 
 format:
