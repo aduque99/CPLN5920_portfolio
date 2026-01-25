@@ -1,7 +1,7 @@
 ---
 title: "Lab 1: Census Data Quality for Policy Decisions"
 subtitle: "Evaluating Data Reliability for Algorithmic Decision-Making"
-author: "Your Name Here"
+author: "Alejandro Duque"
 date: today
 format: 
   html:
