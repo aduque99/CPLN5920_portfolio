@@ -12,6 +12,8 @@ website:
         menu:
           - href: labs/lab_0/lab0_duque.qmd
             text: "Lab 0: dplyr Basics"
+          - href: labs/lab_1/lab1_duque.qmd
+            text: "Lab 1: Census Data Quality for Policy Decisions"
 
 format:
   html:
