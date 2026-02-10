@@ -381,7 +381,7 @@ Communities of color, which we have seen already are often minority groups withi
 
 4. **Strategic Recommendations**: What should the Department implement to address these systematic issues?
 
-Although solving these systemic issues are complex, one strategy the department might employ to reduce bias risks is more extensive on the ground surveying, ensuring survey responses in person and better characterizing the community.
+Although solving these systemic issues are complex, one strategy the department might employ to reduce bias risks is more extensive on the ground surveying, ensuring survey responses in person and better characterizing the community. Strengthening partnerships with local organizations such as community centers, faith groups, and social service providers can also help reach residents who are historically under counted or distrustful of federal surveys. Also, investing in multilingual outreach and culturally responsive engagement can improve participation rates.
 
 **Executive Summary:**
 
@@ -391,7 +391,7 @@ Population and sample size seems to be a consistent link to the level of reliabi
 
 Communities of color, which we have seen already are often minority groups within states, often correlate with higher poverty rates and housing insecurity which contribute to lower survey response rates than higher resource rich geographies. This impacts survey sizes and heavily damages the margin of error which means that census data can misrepresent the community.
 
-Although solving these systemic issues are complex, one strategy the department might employ to reduce bias risks is more extensive on the ground surveying, ensuring survey responses in person and better characterizing the community.
+Although solving these systemic issues are complex, one strategy the department might employ to reduce bias risks is more extensive on the ground surveying, ensuring survey responses in person and better characterizing the community. Strengthening partnerships with local organizations such as community centers, faith groups, and social service providers can also help reach residents who are historically under counted or distrustful of federal surveys. Also, investing in multilingual outreach and culturally responsive engagement can improve participation rates.
 
 ## 6.3 Specific Recommendations
 
@@ -441,7 +441,7 @@ In contrast, only 10 counties were categorized as moderately reliable for their 
 
 3. **Counties needing alternative approaches:** [List counties with low confidence data and suggest specific alternatives - manual review, additional surveys, etc.]
 
-There were no counties with low confidence, Higher that 10% MOE.
+There were no counties with low confidence, Higher than 10% MOE.
 
 ## Questions for Further Investigation
 
