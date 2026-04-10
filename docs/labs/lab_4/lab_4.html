@@ -3905,6 +3905,10 @@ vertical-align: -.125em;
     <a class="dropdown-item" href="../../labs/lab_2/lab2_duque.html">
  <span class="dropdown-text">Lab 2: Spatial Analysis and Visualization</span></a>
   </li>  
+        <li>
+    <a class="dropdown-item" href="../../labs/lab_4/lab_4.html">
+ <span class="dropdown-text">Lab 4: Spatial Predictive Analysis</span></a>
+  </li>  
     </ul>
   </li>
 </ul>
@@ -4467,7 +4471,7 @@ Number of Fisher Scoring iterations: 5</code></pre>
 </section>
 <section id="part-6-model-evaluation" class="level4">
 <h4 class="anchored" data-anchor-id="part-6-model-evaluation">Part 6: Model Evaluation</h4>
-<p>Kernel Density Estimation is the simplest possible spatial prediction — it just smooths the observed points into a surface. Comparing the Poisson model against this baseline answers the question: does the added complexity of regression actually buy us anything? In this case, the KDE outperformed the Poisson model (MAE: 8.3 vs 12.7), which is a humbling but honest result. KDE has an inherent advantage when predicting the same year’s data because it directly reflects where buildings were reported. The real test of the regression model’s value would be predicting a future year, where KDE loses its advantage and the model’s learned relationships would need to carry the weight.</p>
+<p>Comparing the Poisson model against this baseline answers the question: does the added complexity of regression actually buy us anything? In this case, the KDE outperformed the Poisson model (MAE: 8.3 vs 12.7), which is a humbling but honest result. KDE has an inherent advantage when predicting the same year’s data because it directly reflects where buildings were reported. The real test of the regression model’s value would be predicting a future year, where KDE loses its advantage and the model’s learned relationships would need to carry the weight.</p>
 <div class="cell">
 <div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb52"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb52-1"><a href="#cb52-1" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(spatstat)</span>
 <span id="cb52-2"><a href="#cb52-2" aria-hidden="true" tabindex="-1"></a></span>

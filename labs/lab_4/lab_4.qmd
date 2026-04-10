@@ -421,7 +421,7 @@ cat("  - RMSE:", round(rmse, 3), "\n")
 
 #### Part 6: Model Evaluation
 
-Kernel Density Estimation is the simplest possible spatial prediction — it just smooths the observed points into a surface. Comparing the Poisson model against this baseline answers the question: does the added complexity of regression actually buy us anything? In this case, the KDE outperformed the Poisson model (MAE: 8.3 vs 12.7), which is a humbling but honest result. KDE has an inherent advantage when predicting the same year's data because it directly reflects where buildings were reported. The real test of the regression model's value would be predicting a future year, where KDE loses its advantage and the model's learned relationships would need to carry the weight.
+Comparing the Poisson model against this baseline answers the question: does the added complexity of regression actually buy us anything? In this case, the KDE outperformed the Poisson model (MAE: 8.3 vs 12.7), which is a humbling but honest result. KDE has an inherent advantage when predicting the same year's data because it directly reflects where buildings were reported. The real test of the regression model's value would be predicting a future year, where KDE loses its advantage and the model's learned relationships would need to carry the weight.
 
 ```{r}
 library(spatstat)
