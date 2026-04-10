@@ -16,6 +16,8 @@ website:
             text: "Lab 1: Census Data Explorations"
           - href: labs/lab_2/lab2_duque.html
             text: "Lab 2: Spatial Analysis and Visualization"
+          - href: labs/lab_4/lab_4.html
+            text: "Lab 4: Spatial Predictive Analysis"
         
 
 format:
