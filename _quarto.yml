@@ -18,7 +18,7 @@ website:
             text: "Lab 2: Spatial Analysis and Visualization"
           - href: labs/lab_4/lab_4.html
             text: "Lab 4: Spatial Predictive Analysis"
-          - href: labs/lab_5/lab_5.html
+          - href: labs/lab_5/duque_lab_5.html
             text: "Lab 5: Bikeshare_SpaceTime_Prediction"
         
 

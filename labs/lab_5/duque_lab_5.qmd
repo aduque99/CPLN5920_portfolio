@@ -213,8 +213,7 @@ kable(top_stations,
 # Philadelphia Data
 
 ```{r load_census}
-#| message: false
-#| warning: false
+#| include: false
 
 
 # Get Philadelphia census tracts
@@ -640,7 +639,6 @@ cat("Testing date range:", format(min(test$date), "%B %d, %Y"), "to", format(max
 ## Model 1: Baseline (Time + Weather)
 
 ```{r model1}
-#| echo: false   
 
 
 # Create day of week factor with treatment (dummy) coding
@@ -1046,6 +1044,7 @@ Because wealthier, higher deman neighborhoods also tend to have higher percentag
 
 
 #Feature Engineering & Model Improvement
+
 ## Holiday and Good Weather Biking Model
 
 ```{r}
@@ -1062,7 +1061,9 @@ model6 <- lm(
 cat("Model 6 R-squared:", summary(model6)$r.squared, "\n")
 cat("Model 6 Adj R-squared:", summary(model6)$adj.r.squared, "\n")
 ```
+
 ##Calculating Model 6 MAE and comparing between 
+
 ```{r new_calculate_mae}
 # Get predictions on test set
 
@@ -1115,7 +1116,9 @@ Two key elements were missing from the previous models, a holiday indicator and 
 
 Although adding these features are theoretically backed up, they did not improve the model's performance to a substantial degree. In fact, no change in MAE was seen from model 5 to model 6. This is likely due to the fact that the holiday indicator is limited to two days across the whole training data period and even though the perfect weather indicator specified hours, weather was already used in the previous regressions.
 
+
 #Critical Reflection
+
 
 A MAE of 0.70 trips per station-hour sounds impressive on paper, but whether it is "good enough" for Indego to actually use depends heavily on context. For a low demand station averaging 1-2 trips per hour, being off by 0.70 trips is a significant error, that's essentially not knowing whether a bike will be needed at all. For a high demand Center City station averaging 5-6 trips per hour, 0.70 is much more acceptable. So the model's usefulness really depends on which stations Indego is trying to optimize rebalancing for. Prediction errors become most damaging during peak hours — AM and PM rush on weekdays — when a wrong prediction means a dock is either empty or full at exactly the wrong time. I would recommend deploying this system only as a decision support tool rather than a fully automated rebalancing system, and only for high-demand stations where the model has enough training signal to be reliable.
 
